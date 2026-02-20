@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AÉRIOS - Curso de Banco de Dados</title>
+  <link rel="icon" type="image/png" href="agua.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="agua2.png" alt="" width="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Agência</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Serviço</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExample" class="carousel slide container my-4" data-bs-ride="carousel">
+    <div class="carousel-inner text-center">
+      <div class="carousel-item active">
+        <img src="agua5.jpeg" class="d-block mx-auto" style="width: 80%;" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="agua6.jpeg" class="d-block mx-auto" style="width: 80%;" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="agua7.jpeg" class="d-block mx-auto" style="width: 80%;" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <div class="container my-4">
+    <div class="d-flex align-items-center">
+      <img src="agua1.png" alt="carro" class="me-3" style="width: 300px; height: auto;">
+      <div>
+        <h5>Empresa</h5>
+        <p>A AÉRIOS oferece cursos especializados em Banco de Dados com infraestrutura completa, utilizando computadores de alta performance, internet de alta qualidade e salas equipadas para garantir o melhor aprendizado prático em SQL.</p>
+        <p>Nossa metodologia organiza o ensino em módulos dinâmicos, com apostilas digitais e suporte dedicado, unindo a flexibilidade do EAD com a experiência das aulas presenciais para formar profissionais prontos para o mercado.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+      <div class="col">
+        <div class="card h-100" style="width: 100%;">
+          <img src="agua4.jpeg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <p class="card-text fw-bold">Cursos Presenciais</p>
+            <a href="#" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" style="width: 100%;">
+          <img src="agua3.jpeg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <p class="card-text fw-bold">Cursos Online</p>
+            <a href="#" class="btn btn-primary">Saiba Mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2> <p class="text-center fw-bold">CONTATO</p></h2>
+  <P class="text-center">aerios(2026)@empresa.com</P>
+
+  <p class="text-center fw-bold">
+    <span class="bg-dark text-white px-3 py-1 rounded">+55 (65) 3318-1403</span>
+  </p>
+
+  <P class="text-center">R. Zulmira Canavarros, 95</P>
+
+  <div class="container my-5">
+    <h2 class="text-center fw-bold mb-4">Fale Conosco</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email" placeholder="seu@email.com">
+      </div>
+      <div class="mb-3">
+        <label for="mensagem" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..."></textarea>
+      </div>
+      <button type="button" class="btn btn-dark" onclick="this.form.reset(); alert('Enviado!'); window.location.reload();">Enviar</button>
+    </form>
+  </div>
+
+  <footer class="bg-dark text-white py-3 mt-5">
+    </p>
+    <p class="bg-dark text-white text-center">AÉRIOS - Curso de Banco de Dados</p>
+  </footer>
+
+</body>
+</html>
